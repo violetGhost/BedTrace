@@ -17,8 +17,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bedtrace.ward_class3" />
+        <activity android:name="com.example.bedtrace.ward_class2" />
+        <activity android:name="com.example.bedtrace.ward_class1" />
+        <activity android:name="com.example.bedtrace.main_page" />
         <activity android:name="com.example.bedtrace.register_beds" />
         <activity android:name="com.example.bedtrace.register_form" />
         <activity android:name="com.example.bedtrace.MainActivity" >
@@ -32,11 +35,6 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.bedtrace.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

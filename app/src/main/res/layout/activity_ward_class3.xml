@@ -6,4 +6,155 @@
     android:layout_height="match_parent"
     tools:context=".ward_class3">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ward 3C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="3rd Class Ward"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed2"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintTop_toTopOf="@+id/imgBtn_Ward3C_Bed1"
+        app:srcCompat="@drawable/Bed1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed1"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/Bed1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed4"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/Bed1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed3"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/Bed1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed5"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:srcCompat="@drawable/Bed1" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward3C_Bed6"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/Bed1" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 1"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed1" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 2"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed2" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 3"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed3" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 4"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed4" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 5"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed5"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed5"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed5" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bed 6"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed6"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed6"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed6" />
 </android.support.constraint.ConstraintLayout>

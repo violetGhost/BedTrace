@@ -6,4 +6,114 @@
     android:layout_height="match_parent"
     tools:context=".ward_class2">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ward 2B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="2nd Class Ward"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward2B_Bed2"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintTop_toTopOf="@+id/imgBtn_Ward2B_Bed1"
+        app:srcCompat="@drawable/Bed2" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward2B_Bed4"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/Bed2" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward2B_Bed3"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/Bed2" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Ward2B_Bed1"
+        android:layout_width="140"
+        android:layout_height="140"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/Bed2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 1"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 2"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 3"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed3"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed3"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed3" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bed 4"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed4"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed4"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed4" />
 </android.support.constraint.ConstraintLayout>

@@ -1004,6 +1004,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable first_class
+drawable ic_account_circle_black_24dp
+drawable ic_info_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1026,6 +1029,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable second_class
+drawable third_class
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font aclonica
@@ -1088,6 +1093,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id details_bedtrace
 id dimensions
 id direct
 id disableHome
@@ -1119,6 +1125,9 @@ id image
 id imageView
 id imageView2
 id imageView3
+id img_btn_class1
+id img_btn_class2
+id img_btn_class3
 id info
 id invisible
 id italic
@@ -1156,6 +1165,7 @@ id password
 id patient_name
 id percent
 id pin
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -1232,6 +1242,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar_main
 id top
 id topPanel
 id touch_outside
@@ -1331,6 +1342,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

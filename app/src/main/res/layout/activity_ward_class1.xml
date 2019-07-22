@@ -45,12 +45,12 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/Bed" />
+        app:srcCompat="@drawable/bed" />
 
     <ImageButton
         android:id="@+id/imgBtn_Ward1A_Bed2"
-        android:layout_width="140"
-        android:layout_height="140"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_marginEnd="8dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/imgBtn_Ward1A_Bed1"
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgBtn_Ward1A_Bed1"
         app:layout_constraintTop_toTopOf="@+id/imgBtn_Ward1A_Bed1"
-        app:srcCompat="@drawable/Bed" />
+        app:srcCompat="@drawable/bed" />
 
     <TextView
         android:id="@+id/textView11"

@@ -72,6 +72,10 @@ public class main_page extends AppCompatActivity {
                 intent = new Intent(main_page.this, register_form.class);
                 startActivity(intent);
                 break;
+            case R.id.details_bedtrace:
+                intent = new Intent(main_page.this, detail_system.class);
+                startActivity(intent);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

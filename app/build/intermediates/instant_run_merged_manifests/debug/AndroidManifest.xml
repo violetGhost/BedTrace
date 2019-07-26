@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bedtrace.detail_system" />
         <activity android:name="com.example.bedtrace.ward_class3" />
         <activity android:name="com.example.bedtrace.ward_class2" />
         <activity android:name="com.example.bedtrace.ward_class1" />

@@ -1038,6 +1038,9 @@ drawable third_class
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 font aclonica
+font andika
+font arbutus
+font forum
 id ALT
 id CTRL
 id FUNCTION
@@ -1128,7 +1131,6 @@ id ifRoom
 id image
 id imageView
 id imageView2
-id imageView3
 id imageView4
 id imageView5
 id imgBtn_Ward1A_Bed1
@@ -1146,6 +1148,7 @@ id imgBtn_Ward3C_Bed6
 id img_btn_class1
 id img_btn_class2
 id img_btn_class3
+id img_user
 id info
 id invisible
 id italic
@@ -1278,7 +1281,19 @@ id textView22
 id textView23
 id textView24
 id textView25
+id textView26
+id textView27
+id textView28
+id textView29
 id textView3
+id textView30
+id textView31
+id textView32
+id textView33
+id textView34
+id textView35
+id textView36
+id textView37
 id textView4
 id textView5
 id textView6
@@ -1305,6 +1320,7 @@ id transition_transform
 id uniform
 id unlabeled
 id up
+id update_user_profile
 id useLogo
 id username
 id view_offset_helper

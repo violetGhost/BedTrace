@@ -1,4 +1,4 @@
-#Mon Jul 29 12:03:18 SGT 2019
+#Tue Jul 30 21:41:54 SGT 2019
 base.0=C\:\\Users\\Fatin Baderolsah\\source\\repos\\assignment\\BedTrace\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

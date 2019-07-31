@@ -13,6 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
         android:text="1st Class Ward"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -27,6 +28,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
         android:text="Ward 1A"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -39,7 +41,7 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward1A_Bed2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -64,17 +66,72 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/forum"
         android:text="Bed 1"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward1A_Bed1"
-        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward1A_Bed1"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward1A_Bed1" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/status_c1_b1"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/status_c1_b1" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/forum"
         android:text="Bed 2"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/status_c1_b2"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/status_c1_b2" />
+
+    <TextView
+        android:id="@+id/status_c1_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
+        android:text="status"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward1A_Bed1"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward1A_Bed1" />
+
+    <TextView
+        android:id="@+id/status_c1_b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
+        android:text="status"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward1A_Bed2"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward1A_Bed2" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/forum"
+        android:text="Status:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/status_c1_b1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward1A_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward1A_Bed1" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/forum"
+        android:text="Status:"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/status_c1_b2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward1A_Bed2"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward1A_Bed2" />
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "C:\\Users\\Fatin Baderolsah\\source\\repos\\assignment\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\09d3a3c273a589b72111246f4a450cef\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\e13f0320f7d3aa691d5af5e1f72ccaf2\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\bdc580735e33aa8f28b6c0f9350744bc\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\ad9a2004e6f1fd83e62f10d4131a1abb\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

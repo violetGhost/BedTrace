@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135747876901",
+    "firebase_url": "https://bedtrace-3126c.firebaseio.com",
+    "project_id": "bedtrace-3126c",
+    "storage_bucket": "bedtrace-3126c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135747876901:android:2d7036d0e348f668",
+        "android_client_info": {
+          "package_name": "com.example.bedtrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135747876901-98r6i2plpj6knumn3e2mmc5va92remg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bedtrace",
+            "certificate_hash": "7ca18a51257c7ac3452e9acb50ece13d13820989"
+          }
+        },
+        {
+          "client_id": "135747876901-ror3i6n5u1jrdrv209ukg9a69aesv444.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfXTvnqF5hW3kqdbV-I9gDUf3UeuByTEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135747876901-ror3i6n5u1jrdrv209ukg9a69aesv444.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

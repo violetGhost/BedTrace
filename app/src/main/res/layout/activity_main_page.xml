@@ -62,4 +62,46 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/third_class" />
 
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
+        android:text="Kolestrol ialah sejenis lemak di dalam setiap sel badan yang diperlukan untuk menghasilkan hormon steroid, vitamin D dan membantu dalam penghadaman makanan.Tubuh kita mampu menghasilkan kolestrol di dalam hati dan ia juga datang dari makanan.Kolestrol dibawa oleh darah dalam bentuk lipoprotein, iaitu kombinasi lemak dan protein.Terdapat dua jenis lipoprotein berketumpatan rendah (LDL) dan lipoprotein berketumpatan tinggi (HDL).Perunding Kardiologi Hospital Pakar KPJ Tawakkal Dr Shahrol Anuar Mohd Yasin berkata, masalah kolestrol tinggi berlaku apabila kandungan kolestrol di dalam darah meningkat melebihi paras normal.Keadaan ini lazimnya dikesan melalui ujian darah kerana masalah kolestrol tinggi tidak mempunyai tanda awal."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:srcCompat="@drawable/kolestrol" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/forum"
+        android:text="Maklumat kesihatan:-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_btn_class2"
+        app:layout_constraintVertical_bias="0.453" />
+
 </android.support.constraint.ConstraintLayout>

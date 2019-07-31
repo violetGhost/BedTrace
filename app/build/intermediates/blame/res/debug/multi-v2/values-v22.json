@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Fatin Baderolsah\\source\\repos\\assignment\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\bdc580735e33aa8f28b6c0f9350744bc\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\ad9a2004e6f1fd83e62f10d4131a1abb\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

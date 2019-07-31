@@ -77,30 +77,30 @@
         app:layout_constraintTop_toBottomOf="@+id/ward" />
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="monospace"
         android:text="Save"
-        app:layout_constraintEnd_toStartOf="@+id/reset"
+        app:layout_constraintEnd_toStartOf="@+id/btn_reset"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <Button
-        android:id="@+id/reset"
+        android:id="@+id/btn_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginEnd="8dp"
         android:fontFamily="monospace"
         android:text="Reset"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/save"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintBottom_toBottomOf="@+id/btn_save"
+        app:layout_constraintEnd_toStartOf="@+id/btn_report"
+        app:layout_constraintStart_toEndOf="@+id/btn_save"
+        app:layout_constraintTop_toTopOf="@+id/btn_save" />
 
     <TextView
         android:id="@+id/textView3"
@@ -149,5 +149,18 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_date" />
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="monospace"
+        android:text="Report"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_reset"
+        app:layout_constraintTop_toTopOf="@+id/btn_reset" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1119,6 +1119,10 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_add
+id btn_report
+id btn_reset
+id btn_save
 id buttonPanel
 id cancel_action
 id center
@@ -1208,6 +1212,7 @@ id line3
 id listMode
 id list_item
 id login
+id lv_report
 id masked
 id media_actions
 id message
@@ -1239,12 +1244,10 @@ id progress_circular
 id progress_horizontal
 id radio
 id reg_date
-id reset
 id right
 id right_icon
 id right_side
 id role
-id save
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1343,6 +1346,7 @@ id textView34
 id textView35
 id textView36
 id textView37
+id textView38
 id textView4
 id textView5
 id textView6
@@ -1366,6 +1370,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txt_report
 id uniform
 id unlabeled
 id up
@@ -1432,6 +1437,7 @@ layout activity_main
 layout activity_main_page
 layout activity_register_beds
 layout activity_register_form
+layout activity_report
 layout activity_ward_class1
 layout activity_ward_class2
 layout activity_ward_class3

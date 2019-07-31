@@ -1244,6 +1244,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id reg_date
+id reset
 id right
 id right_icon
 id right_side

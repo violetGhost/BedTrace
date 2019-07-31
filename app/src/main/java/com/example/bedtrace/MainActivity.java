@@ -45,18 +45,19 @@ public class MainActivity extends AppCompatActivity {
         inputEmail = findViewById(R.id.username);
         inputPassword = findViewById(R.id.password);
         progressBar = findViewById(R.id.progressBar);
-//        btnReset = (Button) findViewById(R.id.btn_reset_password);
+        btnReset = findViewById(R.id.reset);
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
 
-        //function for reset button
-        /*btnReset.setOnClickListener(new View.OnClickListener() {
+        //action for reset form
+        btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
+                inputEmail.setText("");
+                inputPassword.setText("");
             }
-        });*/
+        });
 
         //action for login
         btnLogin.setOnClickListener(new View.OnClickListener() {

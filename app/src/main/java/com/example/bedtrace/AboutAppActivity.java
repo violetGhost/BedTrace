@@ -5,33 +5,22 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class register_beds extends AppCompatActivity {
+public class AboutAppActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_beds);
+        setContentView(R.layout.activity_about_app);
 
-        Button btnReport;
         FloatingActionButton fBtnHome;
 
-        btnReport = findViewById(R.id.btn_report);
         fBtnHome = findViewById(R.id.fb_home);
-
-        btnReport.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(register_beds.this, report.class);
-                startActivity(intent);
-            }
-        });
 
         fBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(register_beds.this, main_page.class);
+                Intent intent = new Intent(AboutAppActivity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

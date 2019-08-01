@@ -1,7 +1,6 @@
 package com.example.bedtrace;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -12,14 +11,12 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import static android.text.Layout.JUSTIFICATION_MODE_INTER_WORD;
-
-public class main_page extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_page);
+        setContentView(R.layout.activity_home);
 
         ImageButton imgBtnClass1, imgBtnClass2, imgBtnClass3;
         TextView tvArticle;
@@ -35,12 +32,12 @@ public class main_page extends AppCompatActivity {
         imgBtnClass3 = findViewById(R.id.img_btn_class3);
         tvArticle = findViewById(R.id.article);
 
-        tvArticle.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
+//        tvArticle.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
 
         imgBtnClass1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(main_page.this, ward_class1.class);
+                Intent intent = new Intent(HomeActivity.this, Ward1Activity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +45,7 @@ public class main_page extends AppCompatActivity {
         imgBtnClass2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(main_page.this, ward_class2.class);
+                Intent intent = new Intent(HomeActivity.this, Ward2Activity.class);
                 startActivity(intent);
             }
         });
@@ -56,7 +53,7 @@ public class main_page extends AppCompatActivity {
         imgBtnClass3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(main_page.this, ward_class3.class);
+                Intent intent = new Intent(HomeActivity.this, Ward3Activity.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +63,7 @@ public class main_page extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu,menu);
+        inflater.inflate(R.menu.activity_top_toolbar,menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -76,11 +73,11 @@ public class main_page extends AppCompatActivity {
         Intent intent;
         switch(item.getItemId()){
             case R.id.profile:
-                intent = new Intent(main_page.this, register_form.class);
+                intent = new Intent(HomeActivity.this, UserProfileActivity.class);
                 startActivity(intent);
                 break;
             case R.id.details_bedtrace:
-                intent = new Intent(main_page.this, detail_system.class);
+                intent = new Intent(HomeActivity.this, AboutAppActivity.class);
                 startActivity(intent);
                 break;
         }

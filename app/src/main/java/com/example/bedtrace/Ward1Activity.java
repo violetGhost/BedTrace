@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class ward_class1 extends AppCompatActivity {
+public class Ward1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ward_class1);
+        setContentView(R.layout.activity_ward_1);
 
         ImageButton imgBtnWard1AB1, imgBtnWard1AB2;
         FloatingActionButton fBtnHome;
@@ -24,7 +24,7 @@ public class ward_class1 extends AppCompatActivity {
         imgBtnWard1AB1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class1.this, register_beds.class);
+                Intent intent = new Intent(Ward1Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -32,7 +32,7 @@ public class ward_class1 extends AppCompatActivity {
         imgBtnWard1AB2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class1.this, register_beds.class);
+                Intent intent = new Intent(Ward1Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -40,7 +40,7 @@ public class ward_class1 extends AppCompatActivity {
         fBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class1.this, main_page.class);
+                Intent intent = new Intent(Ward1Activity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

@@ -11,15 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".report"></activity>
-        <activity android:name=".detail_system" />
-        <activity android:name=".ward_class3" />
-        <activity android:name=".ward_class2" />
-        <activity android:name=".ward_class1" />
-        <activity android:name=".main_page" />
-        <activity android:name=".register_beds" />
-        <activity android:name=".register_form" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".DiagnoseActivity"></activity>
+        <activity android:name=".AboutAppActivity" />
+        <activity android:name=".Ward3Activity" />
+        <activity android:name=".Ward2Activity" />
+        <activity android:name=".Ward1Activity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".AssignBedActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

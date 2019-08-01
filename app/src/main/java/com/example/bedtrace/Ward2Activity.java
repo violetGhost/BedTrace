@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class ward_class2 extends AppCompatActivity {
+public class Ward2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ward_class2);
+        setContentView(R.layout.activity_ward_2);
 
         ImageButton imgBtnWard2BB1, imgBtnWard2BB2, imgBtnWard2BB3, imgBtnWard2BB4;
         FloatingActionButton fBtnHome;
@@ -26,7 +26,7 @@ public class ward_class2 extends AppCompatActivity {
         imgBtnWard2BB1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class2.this, register_beds.class);
+                Intent intent = new Intent(Ward2Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class ward_class2 extends AppCompatActivity {
         imgBtnWard2BB2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class2.this, register_beds.class);
+                Intent intent = new Intent(Ward2Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class ward_class2 extends AppCompatActivity {
         imgBtnWard2BB3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class2.this, register_beds.class);
+                Intent intent = new Intent(Ward2Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class ward_class2 extends AppCompatActivity {
         imgBtnWard2BB4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class2.this, register_beds.class);
+                Intent intent = new Intent(Ward2Activity.this, AssignBedActivity.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class ward_class2 extends AppCompatActivity {
         fBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ward_class2.this, main_page.class);
+                Intent intent = new Intent(Ward2Activity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

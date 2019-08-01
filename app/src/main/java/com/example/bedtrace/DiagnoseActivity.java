@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class detail_system extends AppCompatActivity {
+public class DiagnoseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail_system);
+        setContentView(R.layout.activity_diagnose);
 
         FloatingActionButton fBtnHome;
 
@@ -20,7 +20,7 @@ public class detail_system extends AppCompatActivity {
         fBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(detail_system.this, main_page.class);
+                Intent intent = new Intent(DiagnoseActivity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

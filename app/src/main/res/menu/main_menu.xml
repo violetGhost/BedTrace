@@ -8,6 +8,10 @@
         android:title="Profile"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/logout"
+        android:icon="@drawable/location_exit"
+        android:title="Log Out" />
+    <item
         android:id="@+id/details_bedtrace"
         android:icon="@drawable/ic_info_black_24dp"
         android:title="About Us" />

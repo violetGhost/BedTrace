@@ -1014,6 +1014,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow_right_bold_circle
 drawable avd_hide_password
 drawable avd_show_password
 drawable bed
@@ -1056,7 +1057,9 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person_black_24dp
 drawable kolestrol
+drawable location_exit
 drawable logo
+drawable logout_variant
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1212,6 +1215,7 @@ id line3
 id listMode
 id list_item
 id login
+id logout
 id lv_report
 id masked
 id media_actions
@@ -1240,6 +1244,7 @@ id patient_name
 id percent
 id pin
 id profile
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio

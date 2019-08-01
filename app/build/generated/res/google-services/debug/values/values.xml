@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">135747876901-ror3i6n5u1jrdrv209ukg9a69aesv444.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://bedtrace-3126c.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">135747876901</string>
-    <string name="google_api_key" translatable="false">AIzaSyCfXTvnqF5hW3kqdbV-I9gDUf3UeuByTEk</string>
-    <string name="google_app_id" translatable="false">1:135747876901:android:2d7036d0e348f668</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCfXTvnqF5hW3kqdbV-I9gDUf3UeuByTEk</string>
-    <string name="google_storage_bucket" translatable="false">bedtrace-3126c.appspot.com</string>
-    <string name="project_id" translatable="false">bedtrace-3126c</string>
+    <string name="default_web_client_id" translatable="false">755814994387-2umr6lq194btueqm4qh4tmsna3hkrmor.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bedtrace-9a5b6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">755814994387</string>
+    <string name="google_api_key" translatable="false">AIzaSyABznh7w1BYftRQQjJRNijLUXzrIxLDRSQ</string>
+    <string name="google_app_id" translatable="false">1:755814994387:android:2d7036d0e348f668</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyABznh7w1BYftRQQjJRNijLUXzrIxLDRSQ</string>
+    <string name="google_storage_bucket" translatable="false">bedtrace-9a5b6.appspot.com</string>
+    <string name="project_id" translatable="false">bedtrace-9a5b6</string>
 </resources>

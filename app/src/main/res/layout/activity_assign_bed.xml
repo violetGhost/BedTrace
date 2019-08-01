@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/no_bed" />
 
     <EditText
-        android:id="@+id/reg_date"
+        android:id="@+id/reg_no"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -43,7 +43,7 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:fontFamily="monospace"
-        android:hint="Registration Date"
+        android:hint="Registration No"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,7 +125,7 @@
         android:fontFamily="monospace"
         android:text="Admitted"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/reg_date" />
+        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
 
     <RadioButton
         android:id="@+id/discharge"
@@ -136,7 +136,7 @@
         android:fontFamily="monospace"
         android:text="Discharged"
         app:layout_constraintStart_toEndOf="@+id/admit"
-        app:layout_constraintTop_toBottomOf="@+id/reg_date" />
+        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
 
     <TextView
         android:id="@+id/textView4"
@@ -148,7 +148,7 @@
         android:text="Status"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reg_date" />
+        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
 
     <Button
         android:id="@+id/btn_report"

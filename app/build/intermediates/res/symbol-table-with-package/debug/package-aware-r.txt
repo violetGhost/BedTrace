@@ -1020,6 +1020,7 @@ drawable avd_show_password
 drawable bed
 drawable bed1
 drawable bed2
+drawable button_background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused

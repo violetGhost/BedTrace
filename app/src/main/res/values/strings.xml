@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BedTrace</string>
+
+    <array name="bedStatus">
+        <item>Please Choose...</item>
+        <item>Admitted</item>
+        <item>Discharge</item>
+    </array>
+
 </resources>

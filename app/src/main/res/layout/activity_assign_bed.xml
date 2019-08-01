@@ -76,18 +76,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ward" />
 
+    <Spinner
+        android:id="@+id/spBedStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/bedStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="541dp" />
+
     <Button
         android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="monospace"
         android:text="Save"
         app:layout_constraintEnd_toStartOf="@+id/btn_reset"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        tools:layout_editor_absoluteY="584dp" />
 
     <Button
         android:id="@+id/btn_reset"
@@ -115,40 +122,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <RadioButton
-        android:id="@+id/admit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="monospace"
-        android:text="Admitted"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
-
-    <RadioButton
-        android:id="@+id/discharge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="monospace"
-        android:text="Discharged"
-        app:layout_constraintStart_toEndOf="@+id/admit"
-        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="monospace"
-        android:text="Status"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reg_no" />
 
     <Button
         android:id="@+id/btn_report"

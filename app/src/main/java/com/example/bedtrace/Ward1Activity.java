@@ -13,7 +13,7 @@ public class Ward1Activity extends AppCompatActivity {
 
     ImageButton imgBtnWard1AB1, imgBtnWard1AB2;
     FloatingActionButton fBtnHome;
-    TextView tvWardName, tvBedNo11,tvBedNo12;
+    TextView tvWardName, tvBedNo11, tvBedNo12, tvStatusc1b1, tvStatusc1b2;
     String wardName, bedNo11,bedNo12;
 
     @Override
@@ -27,6 +27,12 @@ public class Ward1Activity extends AppCompatActivity {
         tvWardName = findViewById(R. id. textView6);
         tvBedNo11 = findViewById(R. id. textView11);
         tvBedNo12 = findViewById(R. id. textView12);
+        tvStatusc1b1 = findViewById(R. id. status_c1_b1);
+        tvStatusc1b2 = findViewById(R. id. status_c1_b2);
+
+        if (tvStatusc1b1 == null) {
+            tvStatusc1b1.setText(BedStatusEnum.DISCHARGE.getStingValue());
+        }
 
         //action for button ward 1AB1
         imgBtnWard1AB1.setOnClickListener(new View.OnClickListener() {

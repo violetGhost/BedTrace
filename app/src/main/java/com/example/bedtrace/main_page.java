@@ -10,6 +10,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
+import static android.text.Layout.JUSTIFICATION_MODE_INTER_WORD;
 
 public class main_page extends AppCompatActivity {
 
@@ -19,6 +22,7 @@ public class main_page extends AppCompatActivity {
         setContentView(R.layout.activity_main_page);
 
         ImageButton imgBtnClass1, imgBtnClass2, imgBtnClass3;
+        TextView tvArticle;
 
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
@@ -29,6 +33,9 @@ public class main_page extends AppCompatActivity {
         imgBtnClass1 = findViewById(R.id.img_btn_class1);
         imgBtnClass2 = findViewById(R.id.img_btn_class2);
         imgBtnClass3 = findViewById(R.id.img_btn_class3);
+        tvArticle = findViewById(R.id.article);
+
+        tvArticle.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
 
         imgBtnClass1.setOnClickListener(new View.OnClickListener() {
             @Override

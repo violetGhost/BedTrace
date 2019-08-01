@@ -1118,6 +1118,7 @@ id admit
 id alertTitle
 id all
 id always
+id article
 id async
 id auto
 id barrier
@@ -1340,7 +1341,6 @@ id textView20
 id textView21
 id textView22
 id textView23
-id textView24
 id textView25
 id textView26
 id textView27

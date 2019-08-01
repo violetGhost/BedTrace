@@ -19,12 +19,13 @@
 
     <ImageButton
         android:id="@+id/img_btn_class1"
-        android:padding="0dp"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:adjustViewBounds="false"
+        android:padding="0dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/img_btn_class2"
         app:layout_constraintHorizontal_bias="0.09"

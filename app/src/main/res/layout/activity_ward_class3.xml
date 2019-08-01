@@ -320,4 +320,17 @@
         app:layout_constraintEnd_toStartOf="@+id/status_c3_b6"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed6"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed6" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2F009688"
+        android:clickable="true"
+        app:backgroundTint="#00220606"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
 </android.support.constraint.ConstraintLayout>

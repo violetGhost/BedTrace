@@ -1,6 +1,7 @@
 package com.example.bedtrace;
 
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,11 +15,13 @@ public class ward_class2 extends AppCompatActivity {
         setContentView(R.layout.activity_ward_class2);
 
         ImageButton imgBtnWard2BB1, imgBtnWard2BB2, imgBtnWard2BB3, imgBtnWard2BB4;
+        FloatingActionButton fBtnHome;
 
         imgBtnWard2BB1 = findViewById(R.id.imgBtn_Ward2B_Bed1);
         imgBtnWard2BB2 = findViewById(R.id.imgBtn_Ward2B_Bed2);
         imgBtnWard2BB3 = findViewById(R.id.imgBtn_Ward2B_Bed3);
         imgBtnWard2BB4 = findViewById(R.id.imgBtn_Ward2B_Bed4);
+        fBtnHome = findViewById(R.id.fb_home);
 
         imgBtnWard2BB1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +51,14 @@ public class ward_class2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ward_class2.this, register_beds.class);
+                startActivity(intent);
+            }
+        });
+
+        fBtnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ward_class2.this, main_page.class);
                 startActivity(intent);
             }
         });

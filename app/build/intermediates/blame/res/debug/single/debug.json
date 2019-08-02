@@ -412,6 +412,10 @@
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\fa0ea58ce5947cb821484741702ebd48\\res\\color\\mtrl_btn_text_btn_ripple_color.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hospital.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\src\\main\\res\\drawable\\hospital.jpg"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\16fcc0ace06257c0aa39570cf9e9fe4d\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
@@ -1390,6 +1394,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\f75a9e8c8a1e3c841e429f17090a5b8f\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\src\\main\\res\\layout\\header.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",

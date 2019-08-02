@@ -1,4 +1,4 @@
-#Fri Aug 02 12:12:01 SGT 2019
+#Fri Aug 02 15:40:26 SGT 2019
 base.0=C\:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

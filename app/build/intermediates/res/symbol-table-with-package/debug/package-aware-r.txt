@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array bedStatus
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
@@ -1114,7 +1115,6 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
-id admit
 id alertTitle
 id all
 id always
@@ -1158,7 +1158,6 @@ id details_bedtrace
 id dimensions
 id direct
 id disableHome
-id discharge
 id edit_query
 id end
 id end_padder
@@ -1252,7 +1251,7 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
-id reg_date
+id reg_no
 id reset
 id right
 id right_icon
@@ -1288,6 +1287,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id spBedStatus
 id spacer
 id split_action_bar
 id spread
@@ -1356,7 +1356,6 @@ id textView35
 id textView36
 id textView37
 id textView38
-id textView4
 id textView5
 id textView6
 id textView7
@@ -1441,15 +1440,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_detail_system
-layout activity_main
-layout activity_main_page
-layout activity_register_beds
-layout activity_register_form
-layout activity_report
-layout activity_ward_class1
-layout activity_ward_class2
-layout activity_ward_class3
+layout activity_about_app
+layout activity_assign_bed
+layout activity_diagnose
+layout activity_home
+layout activity_login
+layout activity_user_profile
+layout activity_ward_1
+layout activity_ward_2
+layout activity_ward_3
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1485,7 +1484,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu main_menu
+menu activity_top_toolbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

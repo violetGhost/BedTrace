@@ -107,42 +107,42 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Fatin Bade
 		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.example.bedtrace.report
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:14:9-53
+activity#com.example.bedtrace.DiagnoseActivity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:14:9-63
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:14:19-41
-activity#com.example.bedtrace.detail_system
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:15:9-51
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:14:19-51
+activity#com.example.bedtrace.AboutAppActivity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:15:9-54
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:15:19-48
-activity#com.example.bedtrace.ward_class3
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:16:9-49
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:15:19-51
+activity#com.example.bedtrace.Ward3Activity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:16:9-51
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:16:19-46
-activity#com.example.bedtrace.ward_class2
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:17:9-49
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:16:19-48
+activity#com.example.bedtrace.Ward2Activity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:17:9-51
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:17:19-46
-activity#com.example.bedtrace.ward_class1
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:18:9-49
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:17:19-48
+activity#com.example.bedtrace.Ward1Activity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:18:9-51
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:18:19-46
-activity#com.example.bedtrace.main_page
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:19:9-47
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:18:19-48
+activity#com.example.bedtrace.HomeActivity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:19:9-50
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:19:19-44
-activity#com.example.bedtrace.register_beds
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:20:9-51
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:19:19-47
+activity#com.example.bedtrace.AssignBedActivity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:20:9-55
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:20:19-48
-activity#com.example.bedtrace.register_form
-ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:21:9-51
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:20:19-52
+activity#com.example.bedtrace.UserProfileActivity
+ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:21:9-57
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:21:19-48
-activity#com.example.bedtrace.MainActivity
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:21:19-54
+activity#com.example.bedtrace.LoginActivity
 ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:22:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Fatin Baderolsah\source\repos\assignment\BedTrace\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN

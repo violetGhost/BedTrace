@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="24"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -24,15 +24,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.bedtrace.report" />
-        <activity android:name="com.example.bedtrace.detail_system" />
-        <activity android:name="com.example.bedtrace.ward_class3" />
-        <activity android:name="com.example.bedtrace.ward_class2" />
-        <activity android:name="com.example.bedtrace.ward_class1" />
-        <activity android:name="com.example.bedtrace.main_page" />
-        <activity android:name="com.example.bedtrace.register_beds" />
-        <activity android:name="com.example.bedtrace.register_form" />
-        <activity android:name="com.example.bedtrace.MainActivity" >
+        <activity android:name="com.example.bedtrace.DiagnoseActivity" />
+        <activity android:name="com.example.bedtrace.AboutAppActivity" />
+        <activity android:name="com.example.bedtrace.Ward3Activity" />
+        <activity android:name="com.example.bedtrace.Ward2Activity" />
+        <activity android:name="com.example.bedtrace.Ward1Activity" />
+        <activity android:name="com.example.bedtrace.HomeActivity" />
+        <activity android:name="com.example.bedtrace.AssignBedActivity" />
+        <activity android:name="com.example.bedtrace.UserProfileActivity" />
+        <activity android:name="com.example.bedtrace.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

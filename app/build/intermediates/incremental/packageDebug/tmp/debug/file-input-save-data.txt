@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Aug 01 19:28:10 SGT 2019
+#Fri Aug 02 09:58:54 SGT 2019
 1.base=C\:\\Users\\Fatin Baderolsah\\source\\repos\\assignment\\BedTrace\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

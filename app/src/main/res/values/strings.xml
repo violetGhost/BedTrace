@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">BedTrace</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
     <array name="bedStatus">
         <item>Please Choose...</item>

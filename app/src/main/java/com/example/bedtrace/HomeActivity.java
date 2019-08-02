@@ -2,6 +2,7 @@ package com.example.bedtrace;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -27,6 +28,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         ImageButton imgBtnClass1, imgBtnClass2, imgBtnClass3;
         TextView tvArticle;
 
@@ -42,12 +44,37 @@ public class HomeActivity extends AppCompatActivity {
         drawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
+
         imgBtnClass1 = findViewById(R.id.img_btn_class1);
         imgBtnClass2 = findViewById(R.id.img_btn_class2);
         imgBtnClass3 = findViewById(R.id.img_btn_class3);
         tvArticle = findViewById(R.id.article);
 
 //        tvArticle.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+                boolean bool=false;
+                Intent intent;
+                switch(menuItem.getItemId()){
+                    case R.id.profile:
+                        intent = new Intent(HomeActivity.this, UserProfileActivity.class);
+                        startActivity(intent);
+                        drawerLayout.closeDrawers();
+                        bool=true;
+                        break;
+                    case R.id.details_bedtrace:
+                        intent = new Intent(HomeActivity.this, AboutAppActivity.class);
+                        startActivity(intent);
+                        drawerLayout.closeDrawers();
+                        bool=true;
+                        break;
+                }
+                return bool;
+            }
+        });
 
         imgBtnClass1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,7 +130,11 @@ public class HomeActivity extends AppCompatActivity {
                 intent = new Intent(HomeActivity.this, AboutAppActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.logout:
+                //method logout
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

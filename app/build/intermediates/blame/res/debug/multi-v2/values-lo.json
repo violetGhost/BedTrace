@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user\\AndroidStudioProjects\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\Fatin Baderolsah\\source\\repos\\assignment\\BedTrace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\8fc76c22e140aa6d6099484f16a24d2a\\res\\values-lo\\values.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\7b100cb80c324528850e12dc4dfe31ea\\res\\values-lo\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\72a8a149ddea1146013c9d28b413d647\\res\\values-lo\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "190",
-                        "endOffsets": "437"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3929",
-                        "endColumns": "190",
-                        "endOffsets": "4115"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\16fcc0ace06257c0aa39570cf9e9fe4d\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\ad9a2004e6f1fd83e62f10d4131a1abb\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\f75a9e8c8a1e3c841e429f17090a5b8f\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\e13f0320f7d3aa691d5af5e1f72ccaf2\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +52,23 @@
                         "startOffsets": "5579",
                         "endColumns": "100",
                         "endOffsets": "5675"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Fatin Baderolsah\\.gradle\\caches\\transforms-2\\files-2.1\\0e169e146f8df579904d295af982d947\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3929",
+                        "endColumns": "190",
+                        "endOffsets": "4115"
                     }
                 }
             ]

@@ -55,12 +55,12 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="8dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward3C_Bed2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
         app:srcCompat="@drawable/bed1" />
 
     <ImageButton
@@ -91,11 +91,13 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/forum"
         android:text="Bed 1"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
         android:id="@+id/textView18"
@@ -104,8 +106,9 @@
         android:fontFamily="@font/forum"
         android:text="Bed 2"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="116dp" />
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
@@ -245,7 +248,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/forum"
         android:text="AISYAH"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
@@ -256,7 +261,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:fontFamily="@font/forum"
         android:text="LEE HWANG NA"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"

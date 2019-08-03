@@ -106,41 +106,41 @@ public class Ward3Activity extends AppCompatActivity {
             }
         });
 
-        //action for button ward 3CB5
-        imgBtnWard3CB5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                wardName = tvWardName.getText().toString();
-                bedNo21 = tvBedNo21.getText().toString();
-
-                Toast.makeText(Ward3Activity.this,wardName,Toast.LENGTH_SHORT).show();
-
-                Intent intent = new Intent(Ward3Activity.this, AssignBedActivity.class);
-                intent.putExtra("wardName", wardName);
-                intent.putExtra("bedNo", bedNo21);
-                startActivity(intent);
-
-            }
-        });
-
-        //action for button ward 3CB6
-        imgBtnWard3CB6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                wardName = tvWardName.getText().toString();
-                bedNo22 = tvBedNo22.getText().toString();
-
-                Toast.makeText(Ward3Activity.this,wardName,Toast.LENGTH_SHORT).show();
-
-                Intent intent = new Intent(Ward3Activity.this, AssignBedActivity.class);
-                intent.putExtra("wardName", wardName);
-                intent.putExtra("bedNo", bedNo22);
-                startActivity(intent);
-
-            }
-        });
+//        //action for button ward 3CB5
+//        imgBtnWard3CB5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                wardName = tvWardName.getText().toString();
+//                bedNo21 = tvBedNo21.getText().toString();
+//
+//                Toast.makeText(Ward3Activity.this,wardName,Toast.LENGTH_SHORT).show();
+//
+//                Intent intent = new Intent(Ward3Activity.this, AssignBedActivity.class);
+//                intent.putExtra("wardName", wardName);
+//                intent.putExtra("bedNo", bedNo21);
+//                startActivity(intent);
+//
+//            }
+//        });
+//
+//        //action for button ward 3CB6
+//        imgBtnWard3CB6.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                wardName = tvWardName.getText().toString();
+//                bedNo22 = tvBedNo22.getText().toString();
+//
+//                Toast.makeText(Ward3Activity.this,wardName,Toast.LENGTH_SHORT).show();
+//
+//                Intent intent = new Intent(Ward3Activity.this, AssignBedActivity.class);
+//                intent.putExtra("wardName", wardName);
+//                intent.putExtra("bedNo", bedNo22);
+//                startActivity(intent);
+//
+//            }
+//        });
 
         fBtnHome.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -17,8 +17,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class AssignBedActivity extends AppCompatActivity {
 
-    String wardName, bedNo;
-    TextView tvWardName, tvBedNo;
+    String wardName, bedNo, patientName, status;
+    TextView tvWardName, tvBedNo, tvPatientName, tvRegNo;
     EditText etName, etRegNo;
     Button btnSave, btnReport;
     Spinner spStatus;
@@ -45,8 +45,16 @@ public class AssignBedActivity extends AppCompatActivity {
         Intent intent = getIntent();
         wardName = intent.getStringExtra("wardName");
         bedNo = intent.getStringExtra("bedNo");
+        patientName = intent.getStringExtra("patientName");
+        status = intent.getStringExtra("status");
+
         tvWardName.setText(wardName);
         tvBedNo.setText(bedNo);
+        if (patientName != null) {
+            etName.setText(patientName);
+        }
+        etRegNo.setText("1906230003");
+        spStatus.setPrompt(status);
 
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override

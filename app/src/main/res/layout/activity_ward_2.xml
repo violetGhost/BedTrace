@@ -7,6 +7,42 @@
     tools:context=".Ward2Activity">
 
     <TextView
+        android:id="@+id/status_c2_b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
+        android:text="ADMITTED"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed4"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed4" />
+
+    <TextView
+        android:id="@+id/patient_c2_b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/forum"
+        android:text="FAUZI"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed3"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <TextView
+        android:id="@+id/status_c2_b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/forum"
+        android:text="DISCHARGE"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintStart_toEndOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed2" />
+
+    <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,36 +83,38 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgBtn_Ward2B_Bed1"
         app:layout_constraintTop_toTopOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bed2" />
 
     <ImageButton
         android:id="@+id/imgBtn_Ward2B_Bed4"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="84dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed2"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed2"
         app:srcCompat="@drawable/bed2" />
 
     <ImageButton
         android:id="@+id/imgBtn_Ward2B_Bed3"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed1"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:srcCompat="@drawable/bed2" />
+        app:srcCompat="@drawable/bed2"
+        tools:layout_editor_absoluteY="367dp" />
 
     <ImageButton
         android:id="@+id/imgBtn_Ward2B_Bed1"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward2B_Bed2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -88,49 +126,45 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 1"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c2_b1"
-        app:layout_constraintStart_toStartOf="@+id/textView28"
-        app:layout_constraintTop_toBottomOf="@+id/status_c2_b1" />
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="114dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 2"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c2_b2"
-        app:layout_constraintStart_toStartOf="@+id/textView29"
-        app:layout_constraintTop_toBottomOf="@+id/status_c2_b2" />
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="114dp" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 3"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c2_b3"
-        app:layout_constraintStart_toStartOf="@+id/textView30"
-        app:layout_constraintTop_toBottomOf="@+id/status_c2_b3" />
+        app:layout_constraintBottom_toTopOf="@+id/imgBtn_Ward2B_Bed3"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed3"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed3" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 4"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c2_b4"
-        app:layout_constraintStart_toStartOf="@+id/textView31"
-        app:layout_constraintTop_toBottomOf="@+id/status_c2_b4" />
+        app:layout_constraintBottom_toTopOf="@+id/imgBtn_Ward2B_Bed4"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed4"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed4" />
 
     <TextView
         android:id="@+id/status_c2_b1"
@@ -138,23 +172,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="ADMITTED"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed1"
         app:layout_constraintStart_toEndOf="@+id/textView28"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed1" />
-
-    <TextView
-        android:id="@+id/status_c2_b2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/forum"
-        android:text="status"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed2"
-        app:layout_constraintStart_toEndOf="@+id/textView29"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed2" />
 
     <TextView
         android:id="@+id/status_c2_b3"
@@ -162,22 +184,22 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="ADMITTED"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed3"
         app:layout_constraintStart_toEndOf="@+id/textView30"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed3" />
 
     <TextView
-        android:id="@+id/status_c2_b4"
+        android:id="@+id/patient_c2_b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="NUR HAILA"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed4"
-        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed4"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed4" />
 
     <TextView
@@ -188,7 +210,6 @@
         android:fontFamily="@font/forum"
         android:text="Status:"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/status_c2_b1"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed1"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed1" />
 
@@ -200,7 +221,6 @@
         android:fontFamily="@font/forum"
         android:text="Status:"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/status_c2_b2"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed2"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed2" />
 
@@ -224,7 +244,7 @@
         android:fontFamily="@font/forum"
         android:text="Status:"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/status_c2_b4"
+        app:layout_constraintEnd_toStartOf="@+id/patient_c2_b4"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed4"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed4" />
 
@@ -240,4 +260,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <TextView
+        android:id="@+id/patient_c2_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="HARMANA"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward2B_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward2B_Bed1" />
 </android.support.constraint.ConstraintLayout>

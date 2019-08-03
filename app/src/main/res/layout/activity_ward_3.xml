@@ -47,6 +47,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgBtn_Ward3C_Bed1"
         app:layout_constraintTop_toTopOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/bed1" />
 
     <ImageButton
@@ -54,7 +55,7 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="68dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imgBtn_Ward3C_Bed2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -66,117 +67,69 @@
         android:id="@+id/imgBtn_Ward3C_Bed4"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/patient_c3_b2"
         app:srcCompat="@drawable/bed1" />
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed3"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="44dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
-        app:layout_constraintTop_toBottomOf="@+id/textView17"
-        app:srcCompat="@drawable/bed1" />
-
-    <ImageButton
-        android:id="@+id/imgBtn_Ward3C_Bed5"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
-        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed3"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:srcCompat="@drawable/bed1" />
-
-    <ImageButton
-        android:id="@+id/imgBtn_Ward3C_Bed6"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"
-        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed4"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/patient_c3_b1"
         app:srcCompat="@drawable/bed1" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 1"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b1"
-        app:layout_constraintStart_toStartOf="@+id/textView32"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b1" />
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 2"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b2"
-        app:layout_constraintStart_toStartOf="@+id/textView33"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b2" />
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="116dp" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 3"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b3"
-        app:layout_constraintStart_toStartOf="@+id/textView34"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b3" />
+        app:layout_constraintBottom_toTopOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed3" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/forum"
         android:text="Bed 4"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b4"
-        app:layout_constraintStart_toStartOf="@+id/textView35"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b4" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:fontFamily="@font/forum"
-        android:text="Bed 5"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b5"
-        app:layout_constraintStart_toStartOf="@+id/textView36"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b5" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:fontFamily="@font/forum"
-        android:text="Bed 6"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/status_c3_b6"
-        app:layout_constraintStart_toStartOf="@+id/textView37"
-        app:layout_constraintTop_toBottomOf="@+id/status_c3_b6" />
+        app:layout_constraintBottom_toTopOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed4" />
 
     <TextView
         android:id="@+id/status_c3_b1"
@@ -184,7 +137,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="ADMITTED"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
         app:layout_constraintStart_toEndOf="@+id/textView32"
@@ -196,7 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="ADMITTED"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
         app:layout_constraintStart_toEndOf="@+id/textView33"
@@ -208,7 +161,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="DISCHARGE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
         app:layout_constraintStart_toEndOf="@+id/textView34"
@@ -220,35 +173,11 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
-        android:text="status"
+        android:text="DISCHARGE"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"
         app:layout_constraintStart_toEndOf="@+id/textView35"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed4" />
-
-    <TextView
-        android:id="@+id/status_c3_b5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/forum"
-        android:text="status"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed5"
-        app:layout_constraintStart_toEndOf="@+id/textView36"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed5" />
-
-    <TextView
-        android:id="@+id/status_c3_b6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/forum"
-        android:text="status"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed6"
-        app:layout_constraintStart_toEndOf="@+id/textView37"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed6" />
 
     <TextView
         android:id="@+id/textView32"
@@ -298,30 +227,6 @@
         app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed4"
         app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed4" />
 
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:fontFamily="@font/forum"
-        android:text="Status:"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/status_c3_b5"
-        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed5"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed5" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:fontFamily="@font/forum"
-        android:text="Status:"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/status_c3_b6"
-        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed6"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed6" />
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fb_home"
         android:layout_width="wrap_content"
@@ -334,4 +239,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <TextView
+        android:id="@+id/patient_c3_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="AISYAH"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed1"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed1" />
+
+    <TextView
+        android:id="@+id/patient_c3_b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="LEE HWANG NA"
+        app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imgBtn_Ward3C_Bed2"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Ward3C_Bed2" />
 </android.support.constraint.ConstraintLayout>

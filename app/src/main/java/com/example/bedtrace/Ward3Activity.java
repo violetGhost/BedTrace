@@ -25,16 +25,14 @@ public class Ward3Activity extends AppCompatActivity {
         imgBtnWard3CB2 = findViewById(R.id.imgBtn_Ward3C_Bed2);
         imgBtnWard3CB3 = findViewById(R.id.imgBtn_Ward3C_Bed3);
         imgBtnWard3CB4 = findViewById(R.id.imgBtn_Ward3C_Bed4);
-        imgBtnWard3CB5 = findViewById(R.id.imgBtn_Ward3C_Bed5);
-        imgBtnWard3CB6 = findViewById(R.id.imgBtn_Ward3C_Bed6);
+
         fBtnHome = findViewById(R.id.fb_home);
         tvWardName = findViewById(R. id. textView9);
+
         tvBedNo17 = findViewById(R. id. textView17);
         tvBedNo18 = findViewById(R. id. textView18);
         tvBedNo19 = findViewById(R. id. textView19);
         tvBedNo20 = findViewById(R. id. textView20);
-        tvBedNo21 = findViewById(R. id. textView21);
-        tvBedNo22 = findViewById(R. id. textView22);
 
         //action for button ward 3CB1
         imgBtnWard3CB1.setOnClickListener(new View.OnClickListener() {

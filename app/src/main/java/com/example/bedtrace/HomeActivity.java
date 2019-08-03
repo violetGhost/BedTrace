@@ -63,13 +63,13 @@ public class HomeActivity extends AppCompatActivity {
                         intent = new Intent(HomeActivity.this, UserProfileActivity.class);
                         startActivity(intent);
                         drawerLayout.closeDrawers();
-                        bool=true;
+                        bool = true;
                         break;
                     case R.id.details_bedtrace:
                         intent = new Intent(HomeActivity.this, AboutAppActivity.class);
                         startActivity(intent);
                         drawerLayout.closeDrawers();
-                        bool=true;
+                        bool = true;
                         break;
                 }
                 return bool;
@@ -131,7 +131,8 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.logout:
-                //method logout
+                intent = new Intent(HomeActivity.this, LoginActivity.class);
+                startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);

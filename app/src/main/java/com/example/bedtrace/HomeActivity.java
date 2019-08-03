@@ -24,6 +24,7 @@ public class HomeActivity extends AppCompatActivity{
 
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle drawerToggle;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class HomeActivity extends AppCompatActivity{
         NavigationView navigationView;
         ImageButton imgBtnClass1, imgBtnClass2, imgBtnClass3;
         TextView tvArticle;
+        auth = FirebaseAuth.getInstance();
 
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
@@ -49,6 +51,7 @@ public class HomeActivity extends AppCompatActivity{
         imgBtnClass1 = findViewById(R.id.img_btn_class1);
         imgBtnClass2 = findViewById(R.id.img_btn_class2);
         imgBtnClass3 = findViewById(R.id.img_btn_class3);
+
         tvArticle = findViewById(R.id.article);
 
         navigationView = findViewById(R.id.navigation_view);
@@ -128,6 +131,8 @@ public class HomeActivity extends AppCompatActivity{
                 break;
             case R.id.logout:
                 //method logout
+                auth.signOut();
+                startActivity(new Intent(HomeActivity.this, LoginActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);

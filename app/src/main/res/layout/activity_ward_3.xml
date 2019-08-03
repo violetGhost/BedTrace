@@ -15,7 +15,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
         android:text="Ward 3C"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/forum"
         android:text="3rd Class Ward"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,8 +38,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed2"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="8dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="@+id/imgBtn_Ward3C_Bed1"
@@ -51,8 +51,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed1"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
@@ -64,8 +64,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed4"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed2"
@@ -75,8 +75,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed3"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed1"
@@ -86,8 +86,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed5"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed3"
@@ -97,8 +97,8 @@
 
     <ImageButton
         android:id="@+id/imgBtn_Ward3C_Bed6"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="@+id/imgBtn_Ward3C_Bed4"

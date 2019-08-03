@@ -3,6 +3,7 @@ package com.example.bedtrace;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -19,18 +20,21 @@ import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity{
 
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle drawerToggle;
+    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        NavigationView navigationView;
         ImageButton imgBtnClass1, imgBtnClass2, imgBtnClass3;
         TextView tvArticle;
+        auth = FirebaseAuth.getInstance();
 
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
@@ -44,35 +48,34 @@ public class HomeActivity extends AppCompatActivity {
         drawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
-
         imgBtnClass1 = findViewById(R.id.img_btn_class1);
         imgBtnClass2 = findViewById(R.id.img_btn_class2);
         imgBtnClass3 = findViewById(R.id.img_btn_class3);
+
         tvArticle = findViewById(R.id.article);
+
+        navigationView = findViewById(R.id.navigation_view);
 
 //        tvArticle.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
-                boolean bool=false;
+
                 Intent intent;
                 switch(menuItem.getItemId()){
                     case R.id.profile:
                         intent = new Intent(HomeActivity.this, UserProfileActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawers();
-                        bool = true;
                         break;
                     case R.id.details_bedtrace:
                         intent = new Intent(HomeActivity.this, AboutAppActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawers();
-                        bool = true;
                         break;
                 }
-                return bool;
+                drawerLayout.closeDrawer(drawerLayout);
+                return true;
             }
         });
 
@@ -100,11 +103,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -131,8 +130,9 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.logout:
-                intent = new Intent(HomeActivity.this, LoginActivity.class);
-                startActivity(intent);
+                //method logout
+                auth.signOut();
+                startActivity(new Intent(HomeActivity.this, LoginActivity.class));
                 break;
         }
         return super.onOptionsItemSelected(item);
